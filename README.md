@@ -3,9 +3,9 @@
 
 Its a simple command-line based python programm that returns summary of inputed file or text.
 
-A user can take a file or a text as an input.I have used `Sumy` library which uses command-line utility for Text Summarization. As a sub module it uses `LexRankSummarizer` class that implements LexRank algorithm, a popular text summarization technique.
+A user can take a file or a text as an input.I have used `Sumy` library which uses command-line utility for Text Summarization. As a sub module it uses `LexRankSummarizer` class that implements `LexRank` algorithm, a popular text summarization technique.
 
-The LexRank algorithm analyzes the relationships between words in a text to identify the most important sentences that capture the essence of the document.
+The `LexRank` algorithm analyzes the relationships between words in a text to identify the most important sentences that capture the essence of the document.
 
 The sumy module also imports `Tokenizer` class from the `tokenizers` submodule.it imports from `sumy.nlp`
 package which uses `Natural Language Processing`.
